@@ -16,7 +16,6 @@ You need Python 3.5 or later to run this file. You can have multiple Python vers
 ### Installing
 
 See below link on how to install Python. 
-
 ```
 https://realpython.com/installing-python/
 ```
@@ -24,12 +23,11 @@ https://realpython.com/installing-python/
 ## How to use this
 
 Clone this to your working environment and run the below script in the directory. 
-
 ```
 $ python stringConvertor.py
 ```
-The app should show you the menu as below once the file has been executed successfully. 
 
+The app should show you the menu as below once the file has been executed successfully. 
 ```
 1 - Start Simulation
 0 - Exit Program
@@ -57,7 +55,6 @@ CSV created!
 ```
 
 The program will show the submenu as below after the stdout is printed. 
-
 ```
 1 - Retry Simulation
 2 - Check CSV
@@ -69,37 +66,17 @@ You may input menu 2 to check the content in CSV file. The CSV file is created o
 h,e,l,l,o, ,w,o,r,l,d
 ```
 
+## Testing
 
-## Deployment
+There is a unittest python script created under the same directory and it can be run as below:
+```
+$ python unittestScript.py 
+```
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+The unittest script is checking the below functions of the scriptConvertor:
+1) test_upper
+- To test whether the input being converted to upper case as expected. 
+2) test)alternate
+- To test whether the input being converted to have alternate upper and lower case as expected
+3) test_csvExist
+- To check whether the csv file being created and content matching with input
