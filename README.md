@@ -7,45 +7,19 @@ Using object-oriented concepts, create a CLI tool that accepts a string and does
 - converts the string to alternate upper and lower case and outputs it to stdout.
 - creates a CSV file from the string by making each character a column in the CSV and then output "CSV created!" to stdout.
 
-### Requirements
-You need Python 3.5 or later to run this file. You can have multiple Python versions (2.x and 3.x) installed on the same system without problems.
-
-In Ubuntu, Mint and Debian you can install Python 3 like this:
-
-$ sudo apt-get install python3 python3-pip
-For other Linux flavors, macOS and Windows, packages are available at
-
-https://www.python.org/getit/
-
 ## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+You need Python 3.5 or later to run this file. You can have multiple Python versions (2.x and 3.x) installed on the same system without problems.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+See below link on how to install Python. 
 
 ```
-Give the example
+https://realpython.com/installing-python/
 ```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
