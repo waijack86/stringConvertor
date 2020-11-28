@@ -21,25 +21,48 @@ See below link on how to install Python.
 https://realpython.com/installing-python/
 ```
 
-## Running the tests
+## How to use this
 
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+Clone this to your working environment and run the below script in the directory. 
 
 ```
-Give an example
+$ python stringConvertor.py
 ```
-
-### And coding style tests
-
-Explain what these tests test and why
+The app should show you the menu as below once the file has been executed successfully. 
 
 ```
-Give an example
+1 - Start Simulation
+0 - Exit Program
 ```
+
+Select the menu 1 will start the String convertor or 0 to exit the program. 
+
+The program will ask you to input string if menu 1 is selected. 
+
+The String Convertor should do the below once received a valid input:
+- converts the string to uppercase and outputs it to stdout.
+- converts the string to alternate upper and lower case and outputs it to stdout.
+- creates a CSV file from the string by making each character a column in the CSV and then output "CSV created!" to stdout.
+
+### Sample Input
+hello world
+ 
+### Sample Output
+HELLO WORLD
+hElLo wOrLd
+CSV created!
+
+The program will show the submenu as below after the stdout is printed. 
+
+```
+1 - Retry Simulation
+2 - Check CSV
+0 - Exit Program
+```
+
+You may input menu 2 to check the content in CSV file. The CSV file is created on the root directory which containing the following: 
+h,e,l,l,o, ,w,o,r,l,d
+
 
 ## Deployment
 
