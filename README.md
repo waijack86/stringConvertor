@@ -44,13 +44,17 @@ The String Convertor should do the below once received a valid input:
 - converts the string to alternate upper and lower case and outputs it to stdout.
 - creates a CSV file from the string by making each character a column in the CSV and then output "CSV created!" to stdout.
 
-### Sample Input
+Sample Input
+```
 hello world
+```
  
-### Sample Output
+Sample Output
+```
 HELLO WORLD
 hElLo wOrLd
 CSV created!
+```
 
 The program will show the submenu as below after the stdout is printed. 
 
@@ -61,7 +65,9 @@ The program will show the submenu as below after the stdout is printed.
 ```
 
 You may input menu 2 to check the content in CSV file. The CSV file is created on the root directory which containing the following: 
+```
 h,e,l,l,o, ,w,o,r,l,d
+```
 
 
 ## Deployment
